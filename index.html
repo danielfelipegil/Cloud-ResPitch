@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction to the Research Cloud</title>
+
+		<link rel="stylesheet" href="revealjs/css/reveal.css">
+		<link rel="stylesheet" href="revealjs/css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+<div class="slides">
+<section data-markdown data-separator="---" data-separator-vertical="^\n--\n$">
+<script type="text/template">
+
+## The Cloud
+<i class="fa fa-cloud fa-5x fa-inverse" aria-hidden="true"></i>
+
+---
+<i class="fa fa-twitter" aria-hidden="true"></i> @dwjperry
+---
+Cloud <i class="fa fa-arrow-right" aria-hidden="true"></i> Butt
+
+---
+![](cloud1.png)
+---
+![](cloud2.png)
+---
+Not just a buzzword though...
+---
+    <table>
+        <tr>
+            <td>Infrastructure as a Service (IaaS)</td><td>Platform as a Service (PaaS)</td><td>Software as a Service (SaaS)</td>
+        </tr>
+        <tr>
+            <td>AWS, Microsoft Azure, Nectar</td><td>Heroku, Google App Engine</td><td>Dropbox, Google Docs</td>
+        </tr>
+    </table>
+
+---
+No really, what is it?
+
+---
+*Computing on tap...*
+
+---
+
+<section>
+    <img width="400" src="water-in-the-desert.jpg">
+    <img width="400" src="Brass_water_tap.jpg">
+</section>
+
+Note: An analogy. A water bottle is portable, often convenient, but it has a limited size. Water on tap is abundant, practically unlimited. You pay per unit of usage, and usually much less than for bottled water.
+
+
+---
+
+<section>
+    <img width="400" src="reservoir-475821_1280.jpg">
+    <img width="400" src="data_center.jpg">
+</section>
+
+---
+
+Do these apply to you?
+
+- I want a *faster* computer
+- I want *lots* of computers
+- I want a *special* kind of computer
+- I want to *share* share my computer with collaborators
+- I want my computer to *host* a web service
+
+
+---
+
+Then maybe you need cloud computing!
+
+---
+
+# Introducing the Nectar Research Cloud
+
+---
+
+- Free for university staff & students
+- Computers, storage and networking on demand
+- National
+
+
+---
+What can I do with it?
+
+---
+
+![](morpheus.png)
+
+
+---
+
+Before that, a couple concepts
+
+---
+
+Instance
+
+<i class="fa fa-desktop fa-5x" aria-hidden="true"></i>
+---
+
+Image
+
+<i class="fa fa-file-photo-o fa-5x" aria-hidden="true"></i>
+---
+
+Key Pair
+
+<i class="fa fa-key fa-5x" aria-hidden="true"></i>
+---
+
+Security Group
+
+<i class="fa fa-filter fa-5x" aria-hidden="true"></i>
+
+---
+
+Onto the fun bit...
+
+Demo 1
+
+Demo 2
+
+Demo 3
+
+Demo 4
+
+---
+
+Want to learn more?
+
+
+</script>
+</section>
+</div>
+		</div>
+
+		<script src="revealjs/lib/js/head.min.js"></script>
+		<script src="revealjs/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+                transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'revealjs/plugin/markdown/marked.js' },
+					{ src: 'revealjs/plugin/markdown/markdown.js' },
+					{ src: 'revealjs/plugin/notes/notes.js', async: true },
+					{ src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
