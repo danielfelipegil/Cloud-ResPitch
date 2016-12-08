@@ -1,7 +1,6 @@
-## Demo 1 - A Global Windspeed Visualization
+## Demo 2 - A Jupyter Python Notebook
 
-
-Today you'll bring online a web server server hosting a visualization of planet-wide wind speeds, based on the D3 JavaScript library. It was created by Cameron Beccario, and the source is at https://github.com/cambecc/earth
+Today you'll bring online a web server server hosting a Jupyter Python Notebook. This is a way of using the Python programming language from your browser, which is very useful for analysing and plotting data, and sharing the results with others.
 
 Let's go!
 
@@ -13,7 +12,7 @@ Let's go!
 
 3. Enter the following options on the 'Detail' tab (the 'Image Name' will be under the public section).
 
-    ![](images/demo1_1.png)
+    ![](images/demo2_1.png)
 
 4. Under the 'Access & Security' tab:
 
@@ -26,17 +25,18 @@ Let's go!
 
 7. Enter this IP address into your browser to visit your new web host. Shout out if you get stuck!
 
-8. Once you're done tinkering, either shut down or terminate your instance (the latter is permanent).
+8. Once you're down tinkering, either shut down or terminate your instance (the latter is permanent).
 
 # Bonus Task
 
-The image has weather data baked in from way back in 2004. See if you can login to your instance via SSH (and the keypair you created), and download some new weather data.
+We only have a few Python packages installed. See if you can login to your instance via SSH (and the keypair you created), and install a new package, say the PyEphem package which can be used to track planets and satellites.
 
 Here are some resources to get you started.
 
 * Nectar: [Accessing Instances](https://support.ehelp.edu.au/support/solutions/articles/6000055446-accessing-instances)
+* Once you're connected, use the command ```pip install pyephem``` to install the new package
 
-* 'Getting Weather Data' section at https://github.com/cambecc/earth (the repository is located in the /home/user/ubuntu/earth directory on your instance)
+
 
 
 
