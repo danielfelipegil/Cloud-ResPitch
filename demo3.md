@@ -29,7 +29,7 @@ Let's go!
 
 6. Your instance will now be created. It will take a couple minutes to come online, when it does you should see an IP address listed in your list of instances (https://dashboard.rc.nectar.org.au/project/instances/).
 
-7. Enter this IP address into your browser to visit your new web host. It might take a few minutes to work as your instance finishes booting. Shout out if you get stuck!
+7. Enter this IP address into your browser to visit your new web host. You'll need to use a browser other than Chrome, since it doesn't support webcam access without jumping through some extra hoops. It might take a few minutes to work as your instance finishes booting. Shout out if you get stuck!
 
 8. Once you're down tinkering, either shut down or terminate your instance (the latter is permanent). Keep in mind that if you don't terminate your instance, it will consume your trial allocation after 3 months.
 
