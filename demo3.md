@@ -31,11 +31,11 @@ Let's go!
 
 7. Enter this IP address into your browser to visit your new web host. You'll need to use a browser other than Chrome, since it doesn't support webcam access without jumping through some extra hoops. It might take a few minutes to work as your instance finishes booting. Shout out if you get stuck!
 
-8. Once you're down tinkering, either shut down or terminate your instance (the latter is permanent). Keep in mind that if you don't terminate your instance, it will consume your trial allocation after 3 months.
+8. Once you're done tinkering, either shut down or terminate your instance (the latter is permanent). Keep in mind that if you don't terminate your instance, it will consume your trial allocation after 3 months.
 
 # Bonus Task
 
-We only show the top five predictions for each picture. By the time you get to the fifth it's pretty much a wild speculative (but often hilarious) guess. What the hell, let's show the top ten results instead, see if you can login to the instance via SSH and hack my code to achieve this. You'll need to modify the file `/home/ubuntu/inception/web.py' and restart the web server (restarting the entire instance will work).
+We only show the top five predictions for each picture. By the time you get to the fifth it's pretty much a wild, speculative, but often hilarious, guess. What the hell, let's show the top ten results instead, see if you can login to the instance via SSH and hack my code to achieve this. You'll need to modify the file `/home/ubuntu/inception/web.py' and restart the web server (restarting the entire instance will work).
 
 Here are some resources to get you started.
 

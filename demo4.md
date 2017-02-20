@@ -36,7 +36,7 @@ Let's go!
 
 8. Log in to Kobo Toolbox using the default account, username: admin, password: password (obviously be a little more security-conscious when running this with real data!)
 
-8. Once you're down tinkering, either shut down or terminate your instance (the latter is permanent). Keep in mind that if you don't terminate your instance, it will consume your trial allocation after 3 months.
+8. Once you're done tinkering, either shut down or terminate your instance (the latter is permanent). Keep in mind that if you don't terminate your instance, it will consume your trial allocation after 3 months.
 
 # Bonus Task
 
